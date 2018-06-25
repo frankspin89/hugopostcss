@@ -1,0 +1,37 @@
+/*------------------------------------*\
+  #Vars
+\*------------------------------------*/
+
+
+
+:root {
+  /*
+ * Fonts
+ */
+
+  --font-family: Roboto, "helvetica neue", "arial", ubuntu, roboto,
+    noto, "segoe ui", arial, sans-serif;
+  --font-family-heading: Roboto, "helvetica neue", "arial", ubuntu,
+    roboto, noto, "segoe ui", arial, sans-serif;
+
+  /*
+  * Colors
+  */
+  --white: #fff;
+  --black: #000;
+  --smoke: #F3F7FB;
+  --link-color: blue;
+  --text-color: gray;
+
+  /*
+  * Breakpoints
+  */
+
+  --site-width: 82em;
+  
+  @custom-media --breakpoint-small (min-width: 43.750rem);
+  @custom-media --breakpoint-medium (min-width: 60rem);
+  @custom-media --breakpoint-large (min-width: 75rem);
+  @custom-media --breakpoint-xlarge (min-width: 94rem);
+  @custom-media --breakpoint-mobile-only (max-width: 60rem);
+}

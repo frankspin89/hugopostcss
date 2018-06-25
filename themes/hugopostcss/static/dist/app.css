@@ -1,0 +1,162 @@
+/*------------------------------------*\
+  #Vars
+\*------------------------------------*/
+
+
+
+:root {
+  /*
+ * Fonts
+ */
+
+  /*
+  * Colors
+  */
+
+  /*
+  * Breakpoints
+  */
+}
+
+
+
+/*------------------------------------*\
+  #BASE
+\*------------------------------------*/
+
+
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+  font-family: Roboto, "helvetica neue", "arial", ubuntu, roboto,
+    noto, "segoe ui", arial, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.015rem;
+  color: var(--gray-dark);
+  color: var(--gray-dark);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  min-height: 100vh;
+}
+
+
+
+.main {
+  -ms-flex: 1;
+      flex: 1;
+}
+
+
+
+/*
+ * Headings
+ */
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+  margin: 0 0 1rem 0;
+  line-height: 1.2;
+  font-family: Roboto, "helvetica neue", "arial", ubuntu,
+    roboto, noto, "segoe ui", arial, sans-serif;
+  color: gray
+}
+
+
+
+/*
+ * Paragraphs
+ */
+
+
+
+p {
+  line-height: 1.7em;
+  margin: 0 0 1rem;
+  font-size: 1rem;
+
+}
+
+
+
+/*
+ * Links
+ */
+
+
+
+a {
+  color: blue
+}
+
+
+
+a:hover {
+  color: rgb(0, 0, 51);
+}
+
+
+
+/*
+ * Images
+ */
+
+
+
+img {
+  max-width: 100%;
+  vertical-align: top;
+  color: transparent;
+  border: 0;
+  background: none;
+}
+
+
+
+/*------------------------------------*\
+  #Styles
+\*------------------------------------*/
+
+
+
+/*------------------------------------*\
+  #Helpers
+\*------------------------------------*/
+
+
+
+body {
+     background: yellow;
+ }
